@@ -1,0 +1,4 @@
+# hidden dirs
+.*/ 
+# kicad backup zip files
+*backup*/

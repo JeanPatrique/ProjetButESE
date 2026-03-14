@@ -1,0 +1,128 @@
+(footprint "led_rouge_T-1_3MM_"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "T-1 (3 mm)")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "54751549-22a4-449a-a4a7-3807cf9af775")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "T-1(3MM)"
+		(at -0.38 -0.064 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36f7c67b-70ab-473a-b8e2-2dc0c09e79f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7ef84f5-3fb7-4cdb-8cf5-c0b4dee5d525")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f0a0e23-6787-4c46-bbd7-5ac7541b6de0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -1.3 -1)
+		(end -1.299999 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b2e0d33d-8d6d-4789-a184-ff3aecd9460a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2.025)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f4734a97-29aa-4f7a-ac1a-860a41ec2d1e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2.025)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7d2c9c9b-8b9d-4038-8ac1-8baa9d6d9aa1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.38 -0.064 0)
+		(layer "F.Fab")
+		(uuid "3783bcd0-cf1b-4910-91bb-d24cde48fa9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c59aade-32c0-4401-b5b6-52c09e03e676")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ec5e5fd-08a3-443e-9259-682a97b07a5a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/symbolesEtEmpreintes/led_verte/LED_ROUGE_HLMP-Y301-F0000.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+)

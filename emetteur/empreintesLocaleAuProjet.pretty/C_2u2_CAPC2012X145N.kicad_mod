@@ -1,0 +1,181 @@
+(footprint "C_2u2_CAPC2012X145N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C2012 [EIA CC0805]")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "3b8245f3-9ba4-4937-a41c-867238bb2fc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC2012X145N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a05c178-874c-4a88-8869-75611d2b19c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eed45b61-c60b-4537-8b5d-10d4edc46d7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "047c4f1b-9096-4e55-8f35-0ede5e5c9079")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd7a9100-284d-4ff4-997c-71c5bd7d0c77")
+	)
+	(fp_line
+		(start -1.46 -0.89)
+		(end 1.46 -0.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee5796db-e90f-4096-9223-3dd2c23e3fe5")
+	)
+	(fp_line
+		(start -1.46 0.89)
+		(end -1.46 -0.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae1d69b2-8890-4f70-acb8-a273f4d8dfad")
+	)
+	(fp_line
+		(start 1.46 -0.89)
+		(end 1.46 0.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9da05e2f-c836-46e6-9aaa-ecef02d758e3")
+	)
+	(fp_line
+		(start 1.46 0.89)
+		(end -1.46 0.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77b434ec-ff95-41df-b84d-c0133182d71e")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b474e65c-feb0-42cd-a01f-6f375dae2dea")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e907371f-c58a-480c-b292-d66654093e4e")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8ed6638-a0ad-4ef3-b061-f07ab548d2ae")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67096726-e491-4656-a6c4-828aa5cf6855")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c71079ed-2c52-4520-9128-2610cd360906")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 0.62 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "281c1411-0aca-48c4-ba5a-d047898c99e9")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.62 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccb27540-d4b6-4807-af32-894c0049fe4b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/symbolesEtEmpreintes/C_2u2/C_2u2_C2012X7R1H225K125AE.stp"
+		(offset
+			(xyz -0.9599999641 0 0.6299999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

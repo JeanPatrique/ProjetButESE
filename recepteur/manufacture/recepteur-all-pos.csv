@@ -1,0 +1,3 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J1","Conn_02x04_Counter_Clockwise","PinHeader_2x04_P2.54mm_Vertical",164.225000,-69.190000,0.000000,top
+"U1","STM32H733ZGTx","LQFP-144_20x20mm_P0.5mm",137.837500,-80.500000,0.000000,top

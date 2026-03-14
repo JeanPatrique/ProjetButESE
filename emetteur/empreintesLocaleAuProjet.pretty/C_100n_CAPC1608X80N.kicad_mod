@@ -1,0 +1,181 @@
+(footprint "C_100n_CAPC1608X80N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C1608 (080 thickness)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "eb95e5b4-f2e6-4481-8a52-957e0f87a260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X80N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2aba372e-4cab-44e2-a84d-7fe6a0d62fbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6132a40-e69a-400b-a69e-0b897ea939fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b08c863d-890d-4906-9ec6-cfb3f03d2461")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.3)
+		(end 0 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19e87599-1a09-4700-b445-68ef0b38efec")
+	)
+	(fp_line
+		(start -1.22 -0.62)
+		(end 1.22 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2a47353-7df4-4a0f-ac2e-f1318d604144")
+	)
+	(fp_line
+		(start -1.22 0.62)
+		(end -1.22 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df7fbd2d-a284-4f69-bca7-0603266ea371")
+	)
+	(fp_line
+		(start 1.22 -0.62)
+		(end 1.22 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e5d35e8-be5d-46a8-bc57-b4981830076d")
+	)
+	(fp_line
+		(start 1.22 0.62)
+		(end -1.22 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62b7ce2c-9c7c-477a-af94-de04ad5532c6")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91cbd337-6635-4d78-bdef-e8d22b1d848e")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e42db1fe-1fea-4477-ad4f-bd3b69a1fa3f")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c6bc517-6a89-4b70-9a15-1f8c91a9c32f")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a6109fa-6133-4385-ac5f-ca98e55234d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "983e886f-e27d-46ff-b97b-86044a1761c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.54 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f85cece-8889-4451-9c35-dc3a6a2568ae")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.54 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02b21e4e-63e8-4a97-91f5-83ced3366e5c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/symbolesEtEmpreintes/C_100n/C_100n_C1608X7R1H104K080AA.stp"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
